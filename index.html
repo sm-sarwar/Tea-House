@@ -7,6 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = {
@@ -275,6 +276,73 @@
                  </div>
              </section>
     </main>
-    <footer></footer>
+
+    <footer class="bg-gradient-to-r from-red-50 to-red-100 py-14">
+        <!-- content  -->
+        <div class="max-w-screen-xl  mx-auto mb-20">
+            <!-- button section  -->
+             <div class="flex justify-around md:justify-between mt-20">
+                <!-- img div  -->
+                 <div class="">
+                    <img src="./images/cup.png" alt="">
+                 </div>
+                 <!-- btn div  -->
+                  <div class="flex gap-10 items-center">
+                    <p class="font-bold text-gray-600">Ready to get started?</p>
+
+                    <button class="bg-gradient-to-r from-orange-500 to-red-500 p-2 text-white rounded-lg font-bold">Get Started</button>
+                  </div>
+             </div>
+        </div>
+
+        <!-- grid content  -->
+        <div class="grid grid-cols-2 lg:grid-cols-4 max-w-screen-xl mx-auto">
+
+            <div class="px-10">
+                <p class="font-bold my-4">Quick Links</p>
+                <p class="text-gray-500 my-2">Home</p>
+                <p class="text-gray-500 my-2">About Us</p>
+                <p class="text-gray-500 my-2">Insurance</p>
+                <p class="text-gray-500 my-2">Privacy Policy</p>
+            </div>
+
+            <div class="px-10">
+                <p class="font-bold my-4">Our Service</p>
+                <p class="text-gray-500 my-2">Life Insurance</p>
+                <p class="text-gray-500 my-2">Car Insurance</p>
+                <p class="text-gray-500 my-2">Health Insurance</p>
+                <p class="text-gray-500 my-2">House Insurance</p>
+            </div>
+
+            <div class="px-10">
+                <p class="font-bold my-4">Help</p>
+                <p class="text-gray-500 my-2">FAQs</p>
+                <p class="text-gray-500 my-2">Contact Us</p>
+            
+            </div>
+
+            <div class="px-10">
+                <p class="font-bold my-4">Subscribe to our <br>newsletter</p><br><br>
+
+                <div class="flex items-center justify-between border-b-2 border-black mb-10">
+                    <p class="text-gray-500 text-xs  py-3">Email address</p>
+
+                    <svg  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 bg-gradient-to-r from-orange-500 to-red-500 text-white rounded-full p-1">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+                      </svg>   
+                </div>
+                <div class="flex justify-around">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                </div>
+            </div>
+
+            
+        </div>
+        <div class="mt-16">
+            <p class="text-center font-bold text-gray-700">© 2027 UIDesign.to - All rights reserved.</p>
+        </div>
+    </footer>
 </body>
 </html>
